@@ -1,4 +1,5 @@
-*Privacy Policy*
+Privacy Policy
+==============
 
 Your privacy is important to us. It is Steven Seeley's policy to respect your privacy regarding any information we may collect from you across our website, https://github.com/SSZero88, and other sites we own and operate.
 
