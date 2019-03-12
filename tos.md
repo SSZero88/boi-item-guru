@@ -4,7 +4,7 @@ Terms of Service ("Terms")
 Last updated: March 11, 2019
 
 Please read these Terms of Service ("Terms", "Terms of Service") carefully
-before using the https://github.com/SSZero88 website (the "Service") operated
+before using the Binding of Isaac Guru (the "Service") operated
 by Steve Seeley's Github ("us", "we", or "our").
 
 Your access to and use of the Service is conditioned on your acceptance of and
