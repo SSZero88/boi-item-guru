@@ -5,7 +5,7 @@ Last updated: March 11, 2019
 
 Please read these Terms of Service ("Terms", "Terms of Service") carefully
 before using the Binding of Isaac Guru (the "Service") operated
-by Steve Seeley's Github ("us", "we", or "our").
+by Steve Seeley ("us", "we", or "our").
 
 Your access to and use of the Service is conditioned on your acceptance of and
 compliance with these Terms. These Terms apply to all visitors, users and
@@ -13,18 +13,18 @@ others who access or use the Service.
 
 By accessing or using the Service you agree to be bound by these Terms. If you
 disagree with any part of the terms then you may not access the Service. The
-Terms of Service agreement for Steve Seeley's Github has been created with the
+Terms of Service agreement for Binding of Isaac Guru has been created with the
 help of [TermsFeed](https://termsfeed.com/).
 
 Links To Other Web Sites  
 ------------------------
 
 Our Service may contain links to third-party web sites or services that are
-not owned or controlled by Steve Seeley's Github.
+not owned or controlled by Steve Seeley.
 
-Steve Seeley's Github has no control over, and assumes no responsibility for,
+Steve Seeley has no control over, and assumes no responsibility for,
 the content, privacy policies, or practices of any third party web sites or
-services. You further acknowledge and agree that Steve Seeley's Github shall
+services. You further acknowledge and agree that Steve Seeley shall
 not be responsible or liable, directly or indirectly, for any damage or loss
 caused or alleged to be caused by or in connection with use of or reliance on
 any such content, goods or services available on or through any such web sites
