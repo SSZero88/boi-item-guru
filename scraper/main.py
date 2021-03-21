@@ -3,6 +3,7 @@ from pprint import pprint
 
 from bs4 import BeautifulSoup
 import requests
+import json
 
 
 def get_data_from_platinum_god():
@@ -141,4 +142,6 @@ def get_pills_from_wiki():
 
 if __name__ == '__main__':
     item_dict = get_data_from_wiki()
+
     pprint(item_dict)
+    print(json.dumps(item_dict))
