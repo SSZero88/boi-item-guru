@@ -64,16 +64,22 @@ def get_items_from_wiki():
                 item_soup = BeautifulSoup(item_page.content, features="html.parser")
 
                 header = item_soup.find("h1", id=["firstHeading", "section_0"])
-                item_name = header.text
+                item_name = header.text.lower()
 
                 effect_title = item_soup.find("span", id=["Effects", "Effect"])
 
                 description_section = effect_title.parent.findNext("ul")
 
+                # Remove any lines which describe effects that have been removed
                 old_descriptions = description_section.find_all("img", alt="Removed in Afterbirth †")
                 [desc.parent.decompose() for desc in old_descriptions]
 
                 desc_lines = description_section.findAll("li")
+
+                # Remove nested list items, which are already included in text
+                for line in desc_lines:
+                    for nested_li in line.findAll("li"):
+                        nested_li.extract()
 
                 description = " ".join([line.text.encode("ascii", "ignore").decode() for line in desc_lines])
                 description = re.sub(newline_removal_regex, " ", description)
@@ -113,16 +119,22 @@ def get_trinkets_from_wiki():
                 item_soup = BeautifulSoup(item_page.content, features="html.parser")
 
                 header = item_soup.find("h1", id=["firstHeading", "section_0"])
-                item_name = header.text
+                item_name = header.text.lower()
 
                 effect_title = item_soup.find("span", id=["Effects", "Effect"])
 
                 description_section = effect_title.parent.findNext("ul")
 
+                # Remove any lines which describe effects that have been removed
                 old_descriptions = description_section.find_all("img", alt="Removed in Afterbirth †")
                 [desc.parent.decompose() for desc in old_descriptions]
 
                 desc_lines = description_section.findAll("li")
+
+                # Remove nested list items, which are already included in text
+                for line in desc_lines:
+                    for nested_li in line.findAll("li"):
+                        nested_li.extract()
 
                 description = " ".join([line.text.encode("ascii", "ignore").decode() for line in desc_lines])
                 description = re.sub(newline_removal_regex, " ", description)
